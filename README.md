@@ -37,6 +37,25 @@ In this course, you will:
 4. Make a task list
 5. Merge your pull request
 
+## 运行并试玩像素超级玛丽
+
+> 最快办法：在仓库根目录直接双击 `index.html` 打开浏览器，就能立即开始玩；如果资源被拦截，按下面的命令行方式启动本地服务即可。
+
+### 快速试玩（无需命令行）
+
+1. 在文件管理器或桌面上找到本仓库根目录的 `index.html`，直接双击，用浏览器打开就能马上开玩。
+2. 如遇到图片或音频被浏览器拦截，再换用下方的本地服务方式。
+
+### 命令行方式（更稳妥）
+
+1. 克隆或下载本仓库后，打开终端定位到项目根目录，运行：
+   ```bash
+   python -m http.server 8000
+   ```
+2. 浏览器访问 [http://localhost:8000](http://localhost:8000) 即可加载游戏主页（`index.html`）。
+3. 操作键位：←/→ 移动，↑ 或空格跳跃，Enter 暂停/开始，R 重置当前关卡。
+4. 无需额外依赖或账号，直接在浏览器中体验像素风超级玛丽。
+
 ### How to start this course
 
 1. Scroll to the top of the page and click the down arrow next to the Fork button. Then click 'Create a new fork' to fork this repository.
