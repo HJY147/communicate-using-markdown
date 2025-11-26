@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>像素超级玛丽</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hud">
+    <div class="logo">超级玛丽</div>
+    <div class="info">
+      <span id="score">分数 000000</span>
+      <span id="coins">硬币 x00</span>
+      <span id="world">世界 1-1</span>
+      <span id="time">时间 400</span>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <canvas id="game" width="896" height="512" aria-label="超级玛丽像素关卡"></canvas>
+      <aside class="help">
+        <h2>操作</h2>
+        <ul>
+          <li>← / →：移动</li>
+          <li>↑ 或 空格：跳跃</li>
+          <li>Enter：开始 / 暂停</li>
+          <li>R：重置当前关卡</li>
+        </ul>
+        <p>复刻经典像素风格，收集硬币、踩扁栗子仔（Goomba），到达旗杆完成关卡！</p>
+      </aside>
+    </section>
+  </main>
+  <footer>
+    <p>纯前端像素演示，无需账号。</p>
+  </footer>
+  <script src="levels.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
